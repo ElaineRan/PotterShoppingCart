@@ -7,9 +7,9 @@ namespace PotterShoppingCart
 {
     public class CalculatorCart
     {
-        public object Compute()
+        public int Compute()
         {
-            throw new NotImplementedException();
+            return 100;
         }
     }
 }
