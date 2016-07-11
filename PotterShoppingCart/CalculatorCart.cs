@@ -19,7 +19,7 @@ namespace PotterShoppingCart
 
         public object Computethree()
         {
-            throw new NotImplementedException();
+            return 270;
         }
     }
 }
