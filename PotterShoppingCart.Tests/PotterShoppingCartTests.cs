@@ -21,5 +21,20 @@ namespace PotterShoppingCart.Tests
 
             Assert.AreEqual(expect, actual);
         }
+
+        [TestMethod]
+        public void Buy_ep1_and_buy_ep2_and_no_buy_other_should_be_190() 
+        { 
+            //arrange
+            var target = new CalculatorCart();
+
+            //act
+            var actual = target.Computetwo();
+
+            //assert
+            var expect = 190;
+
+            Assert.AreEqual(expect, actual);
+        }
     }
 }
