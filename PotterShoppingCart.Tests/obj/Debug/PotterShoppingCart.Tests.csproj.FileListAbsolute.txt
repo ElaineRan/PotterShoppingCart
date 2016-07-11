@@ -1,0 +1,7 @@
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\bin\Debug\PotterShoppingCart.Tests.dll
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\bin\Debug\PotterShoppingCart.Tests.pdb
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.csprojResolveAssemblyReference.cache
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.dll
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.pdb
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\bin\Debug\PotterShoppingCart.dll
+F:\上課資訊\20160702\day2-lab\day2-lab-source\day2-homework\PotterShoppingCart\PotterShoppingCart.Tests\bin\Debug\PotterShoppingCart.pdb
