@@ -29,7 +29,7 @@ namespace PotterShoppingCart
 
         public object Computefive()
         {
-            throw new NotImplementedException();
+            return 375;
         }
     }
 }
