@@ -26,5 +26,10 @@ namespace PotterShoppingCart
         {
             return 320;
         }
+
+        public object Computefive()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
