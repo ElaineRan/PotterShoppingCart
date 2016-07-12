@@ -14,7 +14,7 @@ namespace PotterShoppingCart.Tests
             var target = new CalculatorCart();
 
             //act
-            var actual = target.Compute();
+            var actual = target.ComputeOne();
 
             //assert
             var expect = 100;
@@ -29,7 +29,7 @@ namespace PotterShoppingCart.Tests
             var target = new CalculatorCart();
 
             //act
-            var actual = target.Computetwo();
+            var actual = target.ComputeTwo();
 
             //assert
             var expect = 190;
@@ -44,7 +44,7 @@ namespace PotterShoppingCart.Tests
             var target = new CalculatorCart();
 
             //act
-            var actual = target.Computethree();
+            var actual = target.ComputeThree();
 
             //assert
             var expect = 270;
@@ -59,7 +59,7 @@ namespace PotterShoppingCart.Tests
             var target = new CalculatorCart();
 
             //act
-            var actual = target.Computefour();
+            var actual = target.ComputeFour();
 
             //assert
             var expect = 320;
@@ -74,7 +74,7 @@ namespace PotterShoppingCart.Tests
             var target = new CalculatorCart();
 
             //act
-            var actual = target.Computefive();
+            var actual = target.ComputeFive();
 
             //assert
             var expect = 375;

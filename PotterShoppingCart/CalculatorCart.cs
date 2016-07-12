@@ -7,29 +7,29 @@ namespace PotterShoppingCart
 {
     public class CalculatorCart
     {
-        public int Compute()
+        public double ComputeOne()
         {
-            return 100;
+            return 100 * 1 ;
         }
 
-        public object Computetwo()
+        public double ComputeTwo()
         {
-            return 190;
+            return 100 * 2 * 0.95;
         }
 
-        public object Computethree()
+        public double ComputeThree()
         {
-            return 270;
+            return 100 * 3 * 0.9;
         }
 
-        public object Computefour()
+        public double ComputeFour()
         {
-            return 320;
+            return 100 * 4 * 0.8;
         }
 
-        public object Computefive()
+        public double ComputeFive()
         {
-            return 375;
+            return 100 * 5 * 0.75;
         }
     }
 }
