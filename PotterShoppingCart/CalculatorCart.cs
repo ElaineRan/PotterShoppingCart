@@ -31,5 +31,10 @@ namespace PotterShoppingCart
         {
             return 100 * 5 * 0.75;
         }
+
+        public object ComputeSpecial()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
