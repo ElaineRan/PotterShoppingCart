@@ -12,9 +12,13 @@ namespace PotterShoppingCart.Tests
         {
             //arrange
             var target = new CalculatorCart();
+            var set = 1;
+            var count = 1;
+            var num = 0;
 
             //act
-            var actual = target.ComputeOne();
+            //var actual = target.ComputeOne();
+            var actual = target.Compute(set, count, num);
 
             //assert
             var expect = 100;
@@ -27,9 +31,13 @@ namespace PotterShoppingCart.Tests
         { 
             //arrange
             var target = new CalculatorCart();
+            var set = 2;
+            var count = 1;
+            var num = 0;
 
             //act
-            var actual = target.ComputeTwo();
+            //var actual = target.ComputeTwo();
+            var actual = target.Compute(set, count, num);
 
             //assert
             var expect = 190;
@@ -42,9 +50,13 @@ namespace PotterShoppingCart.Tests
         {
             //arrange
             var target = new CalculatorCart();
+            var set = 3;
+            var count = 1;
+            var num = 0;
 
             //act
-            var actual = target.ComputeThree();
+            //var actual = target.ComputeThree();
+            var actual = target.Compute(set, count, num);
 
             //assert
             var expect = 270;
@@ -57,9 +69,13 @@ namespace PotterShoppingCart.Tests
         {
             //arrange
             var target = new CalculatorCart();
+            var set = 4;
+            var count = 1;
+            var num = 0;
 
             //act
-            var actual = target.ComputeFour();
+            //var actual = target.ComputeFour();
+            var actual = target.Compute(set, count, num);
 
             //assert
             var expect = 320;
@@ -72,9 +88,13 @@ namespace PotterShoppingCart.Tests
         {
             //arrange
             var target = new CalculatorCart();
+            var set = 5;
+            var count = 1;
+            var num = 0;
 
             //act
-            var actual = target.ComputeFive();
+            //var actual = target.ComputeFive();
+            var actual = target.Compute(set, count, num);
 
             //assert
             var expect = 375;
@@ -87,9 +107,13 @@ namespace PotterShoppingCart.Tests
         {
             //arrange
             var target = new CalculatorCart();
+            var set = 3;
+            var count = 1;
+            var num = 1;
 
             //act
-            var actual = target.ComputeSpecial();
+            //var actual = target.ComputeSpecial();
+            var actual = target.Compute(set, count, num);
 
             //assert
             var expect = 370;
@@ -102,10 +126,19 @@ namespace PotterShoppingCart.Tests
         {
             //arrange
             var target = new CalculatorCart();
+            var set = 3;
+            var count = 1;
+            var num = 0;
 
             //act
-            var actual = target.ComputeSpecialSet();
+            //var actual = target.ComputeSpecialSet();
+            var actual = target.Compute(set, count, num);
 
+            set = 2;
+            count = 1;
+            num = 0;
+
+            actual += target.Compute(set, count, num);
             //assert
             var expect = 460;
 
