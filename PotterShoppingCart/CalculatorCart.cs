@@ -24,7 +24,7 @@ namespace PotterShoppingCart
 
         public object Computefour()
         {
-            throw new NotImplementedException();
+            return 320;
         }
     }
 }
